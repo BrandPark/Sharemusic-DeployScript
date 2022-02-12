@@ -1,5 +1,7 @@
 # Sharemusic-DeployScript
-Sharemusic-CI/CD 프로젝트에서 사용하는 배포 스크립트이다. 스프링 환경에서 동작하며 profile 은 dev 로 실행한다.
+코드를 pull하고 `npm`을 통해 의존성이 등록된 라이브러리들을 다운 받아 배포까지 하는 스크립트입니다.
+
+Travis-CI를 사용하면서 현재는 사용하지 않습니다.
 
 ## 수행 명령
 1. git pull 을 통해 코드 최신화
